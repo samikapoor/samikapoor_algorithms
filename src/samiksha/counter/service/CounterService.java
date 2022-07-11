@@ -6,7 +6,6 @@ public class CounterService {
 		int noteCount[] = new int[arr.length];
 		
 		for(int i=0;i<arr.length;i++) {
-			System.out.println(arr[i]);
 			if(amount >=arr[i]) {
 				noteCount[i] = amount / arr[i];
 				amount = amount - noteCount[i] * arr[i];

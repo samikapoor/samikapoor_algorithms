@@ -1,5 +1,5 @@
 package samiksha.counter.service;
-
+import samiksha.counter.sort.MergeSort;
 
 public class MergeSortImplementation {
 	public void sort(int arr[], int left, int right) {
